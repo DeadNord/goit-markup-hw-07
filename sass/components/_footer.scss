@@ -25,7 +25,7 @@
   letter-spacing: 0.03em;
   font-size: 14px;
 
-  &:not(:first-child) {
+  .footer__list &:not(:first-child) {
     margin-top: 9px;
   }
 
@@ -37,7 +37,7 @@
 .footer__address {
   color: getColor(third-text);
 
-  transition: color getFunct(duration) getFunct(timing)-function;
+  transition: color getFunct(duration) getFunct(timing);
 
   &:hover,
   &:focus {
@@ -50,9 +50,9 @@
 }
 
 .footer__icon-link {
-  background-color: getColor(footer-link);
+  background-color: getColor(footer-link-back);
 
-  transition: background-color getFunct(duration) getFunct(timing)-function;
+  transition: background-color getFunct(duration) getFunct(timing);
 
   &:hover,
   &:focus {
@@ -63,7 +63,7 @@
 .footer__icon-img {
   fill: getColor(third-text);
 
-  transition: fill getFunct(duration) getFunct(timing)-function;
+  transition: fill getFunct(duration) getFunct(timing);
 }
 
 .footer__subscribe {

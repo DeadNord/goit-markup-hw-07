@@ -48,7 +48,7 @@
   color: getColor(third-text);
   background-color: getColor(main-theme);
 
-  transition: background-color getFunct(duration) getFunct(timing)-function;
+  transition: background-color getFunct(duration) getFunct(timing);
 
   &:hover,
   &:focus {

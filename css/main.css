@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto";
   color: #212121;
 }
 
@@ -147,7 +147,7 @@ p {
 }
 
 .icon {
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
   line-height: 1.17;
@@ -494,7 +494,7 @@ p {
   font-size: 14px;
 }
 
-.footer__item:not(:first-child) {
+.footer__list .footer__item:not(:first-child) {
   margin-top: 9px;
 }
 
@@ -757,8 +757,6 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 425px;
-  height: 24px;
   margin-bottom: 30px;
   font-size: 14px;
   line-height: 1.71;
@@ -770,6 +768,15 @@ p {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
+}
+
+.modal__agree--link {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration: underline;
+  margin-left: 6px;
+  color: #2196f3;
 }
 
 .modal__checkbox {
@@ -794,6 +801,7 @@ p {
   background-image: url(../images/checkbox.svg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-origin: border-box;
 }
 
 .modal__button-sent {

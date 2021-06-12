@@ -15,8 +15,8 @@
     0px 2px 1px rgba(0, 0, 0, 0.2);
   background-color: getColor(third-text);
 
-  transition: background-color getFunct(duration) getFunct(timing)-function,
-    box-shadow getFunct(duration) getFunct(timing)-function;
+  transition: background-color getFunct(duration) getFunct(timing),
+    box-shadow getFunct(duration) getFunct(timing);
 }
 
 .modal__title {
@@ -109,8 +109,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 425px;
-  height: 24px;
   margin-bottom: 30px;
 
   font-size: 14px;
@@ -121,6 +119,17 @@
 
   & input[type='checkbox'] {
     appearance: none;
+  }
+
+  &--link {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-decoration: underline;
+
+    margin-left: 6px;
+
+    color: getColor(main-theme);
   }
 }
 
@@ -136,8 +145,8 @@
   border: 2px solid getColor(main-text);
   border-radius: 2px;
 
-  transition: border-color getFunct(duration) getFunct(timing)-function,
-    background-color getFunct(duration) getFunct(timing)-function;
+  transition: border-color getFunct(duration) getFunct(timing),
+    background-color getFunct(duration) getFunct(timing);
 
   .modal__agree input[type='checkbox']:focus ~ & {
     border-color: getColor(main-theme);
@@ -150,6 +159,7 @@
     background-image: url(../images/checkbox.svg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-origin: border-box;
   }
 }
 

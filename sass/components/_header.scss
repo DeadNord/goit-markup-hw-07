@@ -35,7 +35,7 @@
 
   color: getColor(main-text);
 
-  transition: color getFunct(duration) getFunct(timing)-function;
+  transition: color getFunct(duration) getFunct(timing);
 
   &:hover,
   &:focus {
@@ -74,7 +74,7 @@
 
   color: getColor(secondary-text);
 
-  transition: color getFunct(duration) getFunct(timing)-function;
+  transition: color getFunct(duration) getFunct(timing);
 
   &:hover,
   &:focus {
@@ -91,7 +91,7 @@
 
   fill: getColor(secondary-text);
 
-  transition: fill getFunct(duration) getFunct(timing)-function;
+  transition: fill getFunct(duration) getFunct(timing);
 
   .header__address:hover &,
   .header__address:focus & {
@@ -108,7 +108,7 @@
 
   fill: getColor(secondary-text);
 
-  transition: fill getFunct(duration) getFunct(timing)-function;
+  transition: fill getFunct(duration) getFunct(timing);
 
   .header__address:hover &,
   .header__address:focus & {

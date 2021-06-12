@@ -16,7 +16,7 @@
 }
 
 .work__link {
-  transition: box-shadow getFunct(duration) getFunct(timing)-function;
+  transition: box-shadow getFunct(duration) getFunct(timing);
 
   &:hover,
   &:focus {
@@ -39,7 +39,7 @@
 
   background-image: linear-gradient(to right, getColor(work-anim), getColor(work-anim));
 
-  transition: transform getFunct(duration) getFunct(timing)-function;
+  transition: transform getFunct(duration) getFunct(timing);
 
   .work__link:hover &,
   .work__link:focus & {

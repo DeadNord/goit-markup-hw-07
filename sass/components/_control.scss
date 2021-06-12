@@ -16,9 +16,9 @@
   border: transparent;
   border-radius: 4px;
 
-  transition: color getFunct(duration) getFunct(timing)-function,
-    background-color getFunct(duration) getFunct(timing)-function,
-    box-shadow getFunct(duration) getFunct(timing)-function;
+  transition: color getFunct(duration) getFunct(timing),
+    background-color getFunct(duration) getFunct(timing),
+    box-shadow getFunct(duration) getFunct(timing);
 
   &:active,
   &:hover,

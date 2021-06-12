@@ -53,7 +53,7 @@
 }
 
 .team__icon-link {
-  transition: background-color getFunct(duration) getFunct(timing)-function;
+  transition: background-color getFunct(duration) getFunct(timing);
 
   &:hover,
   &:focus {
@@ -64,7 +64,7 @@
 .team__icon-img {
   fill: getColor(client-border);
 
-  transition: fill getFunct(duration) getFunct(timing)-function;
+  transition: fill getFunct(duration) getFunct(timing);
 
   .team__icon-link:hover &,
   .team__icon-link:focus & {
